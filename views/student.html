@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Details</title>
+    <script src="script/student.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+/* Updated CSS for a more attractive design */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #066f6fcb;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(10, 24, 52, 0.659);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(18, 88, 86, 0.2);
+    cursor: pointer;
+}
+
+li h2 {
+    color: #082e55;
+    margin-bottom: 10px;
+}
+
+li p {
+    color: #15057f;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+li span {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Gradient background for better visual appeal */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: -1;
+}
+    </style>
+
+</head>
+<body>
+    <h1>Student's Data</h1>
+
+<ul id="userList">
+    
+</ul>
+
+</body>
+</html>
