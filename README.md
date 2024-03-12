@@ -1,0 +1,1 @@
+This is a full-stack project in which you have to register yourself, and then you will have to verify your email. Then you can login yourself, and then you can access your profile. To get a list of all the registered students and delete them, send a request to students.html. To run successfully, you have to npm install all the files in Node and Express.
